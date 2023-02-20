@@ -28,7 +28,7 @@ VisualTab:AddButton({
 
 -- dupe
 local DupeTab = Window:MakeTab({
-	Name = "Pet Changer",
+	Name = "Dupe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
